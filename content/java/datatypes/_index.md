@@ -2,7 +2,7 @@
 title: 'Java Data Types'
 tags:
 - Basics
-
+---
 
 # Java Data Types
 
