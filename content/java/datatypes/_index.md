@@ -2,6 +2,7 @@
 title: Java Basics
 tags:
 - Basics
+type: docs
 menu:
   datatypes:
     name: Overview

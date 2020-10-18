@@ -1,9 +1,8 @@
 ---
 title: Primitive DataTypes
-linktitle: Tips 1-2
+linktitle: Primitive DataTypes
 toc: true
 type: docs
-date: "2019-05-05T00:00:00+01:00"
 draft: false
 menu:
   example:
@@ -23,7 +22,7 @@ double |	0.0d| Double|
 byte  | 0| -|
 long  | 	0L| Long|
 char | '\u0000'| Character|
--	| -	|BigInteger
+-| -|BigInteger
 
 > BigInteger is used when there is very large data more than Long to be stored.
 
@@ -35,7 +34,7 @@ char | '\u0000'| Character|
 -	multiplication(\*)
 -	division(/)
 
-> Shorthand operations can be performed using ( <operator>= ) eg: result+=5 ==> [ result = result + 5]
+> Shorthand operations can be performed using ( `<operator>=`) eg: result+=5 ==> [ result = result + 5]
 
 ### Increment Decrement Operators
 -	++ (Increment)
