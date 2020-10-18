@@ -214,7 +214,7 @@ plugins_js  = []
   #   0: Disabled
   #   1: Disqus (https://disqus.com)
   #   2: Commento (https://commento.io)
-  engine = 1
+  engine = 0
 
   # Which page types are commentable?
   commentable = {page = true, post = true, docs = true, project = true, publication = true, talk = true}
@@ -222,7 +222,7 @@ plugins_js  = []
   # Configuration of Disqus.
   [comments.disqus]
     shortname = "glinzachariah"  # Paste the shortname from your Disqus dashboard.
-    show_count = true  # Show comment count in page header? (true/false)
+    show_count = false  # Show comment count in page header? (true/false)
 
   # Configuration of Commento.
   [comments.commento]
@@ -237,7 +237,7 @@ plugins_js  = []
   #   0: No search engine
   #   1: Academic (built-in)
   #   2: Algolia (https://www.algolia.com)
-  engine = 1
+  engine = 0
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
@@ -265,7 +265,7 @@ plugins_js  = []
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  engine = 2
+  engine = 0
   api_key = ""
   zoom = 15
 

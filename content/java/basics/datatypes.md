@@ -13,7 +13,7 @@ menu:
 weight: 1
 ---
 
-## Primitive Data Types
+### Primitive Data Types
 
 TYPE| DEFAULT_VALUE| WRAPPER_CLASS|
 ----|--------------|--------------|
