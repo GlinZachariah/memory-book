@@ -1,12 +1,12 @@
 ---
-title: Non-Primitive DataTypes
-linktitle: Non-Primitive DataTypes
+title: Data Stuctures
+linktitle: Data Structures
 toc: true
 type: docs
 draft: false
 menu:
-  datatypes:
-    parent: DataTypes
+  basics:
+    parent: Overview
     weight: 2
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
@@ -18,11 +18,14 @@ TYPE| DEFAULT_VALUE|
 ----|--------------|
 String | null|
 
-## Declaration of String
-`String str = new String();`
-`String st = "";`
+### Declaration of String
+```
+String str = new String();
+String st = "";
 
-### Methods
+```
+
+### String Methods
 METHOD |DESC |
 -------|-----|
 charAt(int index)|Returns the char value at the specified index.|
@@ -33,7 +36,7 @@ contains(CharSequence s)|Returns true if and only if this string contains the sp
 equals(Object anObject)|Compares this string to the specified object.|
 equalsIgnoreCase(String anotherString)|Compares this String to another String, ignoring case considerations.|
 String.format(String format, Object... args)|Returns a formatted string using the specified format string and arguments.|
-indexOf(int ch|String str,[int fromIndex])|Returns the index within this string of the first occurrence of the specified character/substring. Starting from the fromIndex.|
+indexOf(int ch/String str,[int fromIndex])|Returns the index within this string of the first occurrence of the specified character/substring. Starting from the fromIndex.|
 isEmpty()|Returns true if, and only if, length() is 0.|
 length()|Returns the length of this string.|
 matches(String regex)|Tells whether or not this string matches the given regular expression.|
@@ -47,3 +50,5 @@ toLowerCase()|Converts all of the characters in this String to lower case.|
 toUpperCase() |Converts all of the characters in this String to upper case.|
 trim()|Returns a string whose value is this string, with any leading and trailing whitespace removed.|
 String.valueOf(T i)| returns string for given type T.|
+
+

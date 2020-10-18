@@ -4,7 +4,7 @@ tags:
 - Basics
 type: docs
 menu:
-  datatypes:
+  basics:
     name: Overview
     weight: 1
 ---
@@ -23,4 +23,5 @@ Features of the OOPS programming are
 -	Encapsulation
 -	Inheritance
 -	Polymorphism (method overriding & method overloading)
+
 

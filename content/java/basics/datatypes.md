@@ -1,12 +1,12 @@
 ---
-title: Primitive DataTypes
-linktitle: Primitive DataTypes
+title: Data Types
+linktitle: Data Types
 toc: true
 type: docs
 draft: false
 menu:
-  datatypes:
-    parent: DataTypes
+  basics:
+    parent: Overview
     weight: 1
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
