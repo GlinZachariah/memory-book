@@ -34,16 +34,19 @@ char | '\u0000'| Character|
 -	multiplication(\*)
 -	division(/)
 
-> Shorthand operations can be performed using ( `<operator>=`) eg: result+=5 ==> [ result = result + 5]
+{{% alert note %}}
+Shorthand operations can be performed using ( `<operator>=`) eg: result+=5 ==> [ result = result + 5]
+{{% /alert %}}
 
 ### Increment Decrement Operators
--	++ (Increment)
--	--- (Decrement)
+-	`++` (Increment)
+-	`--` (Decrement)
 
-
-> Autoboxing - Converting a primitive value into an object of the corresponding wrapper class is called autoboxing.eg. int to Integer
-
-> Unboxing - Converting an object of a wrapper type to its corresponding primitive value is called unboxing. eg. Integer to int.
+{{% alert note %}}
+Autoboxing - Converting a primitive value into an object of the corresponding wrapper class is called autoboxing.eg. int to Integer
+<br>
+Unboxing - Converting an object of a wrapper type to its corresponding primitive value is called unboxing. eg. Integer to int.
+{{% /alert %}}
 
 ### Wrapper Class Operations
 
@@ -63,7 +66,7 @@ Integer	| parseInt(String str)| parse string to Integer |
 Long    | parseLong(String str)| parse string to Long |
 
 
-> The methods given below are NONSTATIC for more details refer subclass in the [Offical Docs](https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html).
+> The methods given below are NON STATIC for more details refer the [Offical Docs](https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html).
 
 CLASS | METHOD | DESC |
 ------|--------|------|
