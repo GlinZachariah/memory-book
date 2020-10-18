@@ -5,7 +5,7 @@ toc: true
 type: docs
 draft: false
 menu:
-  example:
+  datatypes:
     parent: DataTypes
     weight: 2
 
